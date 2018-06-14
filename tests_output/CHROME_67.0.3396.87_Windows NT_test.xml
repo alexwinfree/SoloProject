@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="test"
+    errors="0" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="3" time="35.82" timestamp="Thu, 14 Jun 2018 15:42:16 GMT">
+  
+    <testcase name="Page Load" classname="test" time="9.238" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Search for a game/select a streamer" classname="test" time="6.133" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Subscribe" classname="test" time="20.45" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;input[id=&#34;recurly-first-name&#34;]&gt; to be present for 6000 milliseconds.">    at Object.Subscribe (C:\Users\Alex&#39;s PC\Documents\testing-resources\VSCode\soloProject\test\test.js:37:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
